@@ -1,0 +1,32 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: lightgoldenrodyellow;
+  color: darkslategrey;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.6rem;
+}
+
+p, ul, ol {
+  margin-top: 0;
+}
+
+img {
+  border-style: solid;
+  border-color: darkslategrey;
+  border-width: 2px;
+}
