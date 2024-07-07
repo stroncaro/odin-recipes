@@ -1,3 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 20px;
@@ -14,19 +23,41 @@ h1 {
   font-weight: bold;
   font-size: 3.6em;
   text-align: center;
+  margin: 3rem 0 1.6rem;
 }
 
 h2 {
   font-size: 2em;
   margin-bottom: 0.6rem;
+  margin: 1.6rem 1.6rem .8rem;
 }
 
-p, ul, ol {
-  margin-top: 0;
+h2:hover, p:hover, li:hover {
+  background-color: lightyellow;
+}
+
+p {
+  margin: .8rem 1.6rem;
+}
+
+ul, ol {
+  margin: .8rem 3.2rem;
 }
 
 img {
   border-style: solid;
   border-color: darkslategrey;
   border-width: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover {
+  border-color: black;
+  border-width: 3px;
+}
+
+.recipe-list {
+  width: max-content;
+  margin: 0 auto;
 }
